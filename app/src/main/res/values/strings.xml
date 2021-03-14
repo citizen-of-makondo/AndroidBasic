@@ -3,4 +3,7 @@
     <string name="textInTextview">Текст в textView</string>
     <string name="writeYourText">Введите текст</string>
     <string name="textOnSwitch">Текст на переключателе</string>
+    <string name="textCheckbox">Текст в checkBox</string>
+    <string name="textToggleButton">Текст на кнопке</string>
+    <string name="textButton">Текст на кнопке</string>
 </resources>
