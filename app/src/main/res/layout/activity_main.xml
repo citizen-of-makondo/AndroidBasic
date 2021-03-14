@@ -32,7 +32,12 @@
         android:layout_marginTop="16dp"
         android:text="Текст на кнопке" />
 
-
-
+    <Switch
+        android:id="@+id/switchView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:text="@string/textOnSwitch"
+        android:textSize="24dp" />
 
 </LinearLayout>
