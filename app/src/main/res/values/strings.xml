@@ -1,3 +1,17 @@
 <resources>
     <string name="app_name">AndroidBasic</string>
+    <string name="textInTextview">Текст в textView</string>
+    <string name="writeYourText">Введите текст</string>
+    <string name="textOnSwitch">Текст на переключателе</string>
+    <string name="textCheckbox">Текст в checkBox</string>
+    <string name="textToggleButton">Текст на кнопке</string>
+    <string name="textButton">Текст на кнопке</string>
+    <string name="inputTypeIsText">Атрибут = text</string>
+    <string name="InputTypeIsTextPersonName">Атрибут = textPersonName</string>
+    <string name="InputTypeIsPhone">Атрибут = phone</string>
+    <string name="InputTypeIsNumber">Атрибут = number</string>
+    <string name="InputTypeIsTextpassword">Атрибут = textPassword</string>
+    <string name="InputTypeIsTextEmailAddress">Атрибут = textEmailAddress</string>
+    <string name="InputTypeIsDate">Атрибут = date</string>
+    <string name="InputTypeIsTime">Атрибут = time</string>
 </resources>

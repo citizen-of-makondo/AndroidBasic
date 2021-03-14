@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/inputTypeText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:hint="@string/inputTypeIsText"
+            android:inputType="text"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/inputTypeTextPersonName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:hint="@string/InputTypeIsTextPersonName"
+            android:inputType="textPersonName"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/inputTypePhone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:hint="@string/InputTypeIsPhone"
+            android:inputType="phone"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/inputTypeNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:hint="@string/InputTypeIsNumber"
+            android:inputType="number"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/inputTypeTextPassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:hint="@string/InputTypeIsTextpassword"
+            android:inputType="textPassword"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/inputTypeTextEmailAddress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:hint="@string/InputTypeIsTextEmailAddress"
+            android:inputType="textEmailAddress"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/inputTypeDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:hint="@string/InputTypeIsDate"
+            android:inputType="date"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/inputTypeTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:hint="@string/InputTypeIsTime"
+            android:inputType="time"
+            android:textSize="16sp" />
+
+        <CalendarView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp" />
+    </LinearLayout>
+
+</ScrollView>
